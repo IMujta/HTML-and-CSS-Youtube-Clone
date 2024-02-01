@@ -325,8 +325,9 @@ body {
   background-color: var(--mine-color);
   display: none;
 }
-.full-sidebar {
-  /* display: none; */
+
+.sidebar.active {
+  display: block;
 }
 
 .sidebar a {
@@ -393,6 +394,11 @@ body {
   min-height: 100vh;
   padding: 0px 4px;
   margin-top: -56px;
+  display: none;
+}
+
+.full-sidebar.active {
+  display: block;
 }
 
 .full-sidebar .nav-btn {
